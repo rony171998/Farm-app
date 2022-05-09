@@ -6,7 +6,7 @@ const CustomerReview = () => {
   const data = {
     series: [
       {
-        name: "Review",
+        name: "Ventas",
         data: [10, 50, 30, 90, 40, 120, 100],
       },
     ],

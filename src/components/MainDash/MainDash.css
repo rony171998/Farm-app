@@ -4,6 +4,12 @@
     flex-direction: column;
     justify-content: space-evenly;
 }
+.cloud{
+    width: 400px; height: 50px;
+    background: #BFF;
+    border-radius: 100px;
+    text-align: center;
+}
 
 @media screen and (max-width: 1200px) {
     .MainDash{

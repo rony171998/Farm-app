@@ -1,14 +1,25 @@
-import React from "react";
+import React, { useState } from "react";
 import Cards from "../Cards/Cards";
 import Table from "../Table/Table";
 import "./MainDash.css";
-const MainDash = () => {
+
+
+const MainDash = (indice) => {
+
   return (
-    <div className="MainDash">
-      <h1>Dashboard</h1>
-      <Cards />
-      <Table />
-    </div>
+
+    
+      <div className="MainDash">
+        <h1 className="cloud">Menu Principal</h1>
+        <div>
+         <Cards/>
+         <Table/>
+        </div>
+
+      </div>
+    
+
+
   );
 };
 
