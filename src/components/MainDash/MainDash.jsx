@@ -13,7 +13,7 @@ const MainDash = (indice) => {
         <h1 className="cloud">Menu Principal</h1>
         <div>
          <Cards/>
-         <Table/>
+         
         </div>
 
       </div>
