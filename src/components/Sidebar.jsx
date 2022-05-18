@@ -7,6 +7,7 @@ import { motion } from "framer-motion";
 
 
 const Sidebar = () => {
+  
   const [selected, setSelected] = useState(0);
   const [expanded, setExpaned] = useState(true)
   
@@ -32,7 +33,7 @@ const Sidebar = () => {
         <div className="logo">
           <img src="https://cdn-icons-png.flaticon.com/512/2548/2548679.png" alt="logo" />
           <span>
-            La<span> P</span>rovincia
+            La<span> P</span>rovidencia
           </span>
         </div>
 
