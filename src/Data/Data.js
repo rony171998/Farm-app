@@ -7,8 +7,7 @@ import {
 } from "@iconscout/react-unicons";
 
 // Analytics Cards imports
-import { UilUsdSquare, UilMoneyWithdrawal } from "@iconscout/react-unicons";
-import { keyboard } from "@testing-library/user-event/dist/keyboard";
+import { UilUsdSquare } from "@iconscout/react-unicons";
 
 // Recent Card Imports
 import img1 from "../imgs/img1.png";
